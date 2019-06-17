@@ -1,3 +1,3 @@
-x, y, z = [int(x) for x in input().split()] 
-s = x * y % z
+a, b, c = [int(a) for a in input().split()] 
+s = (a*b)/c
 print(s)
