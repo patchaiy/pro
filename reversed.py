@@ -5,9 +5,6 @@ def reverse(s):
   return str
   
 s = input()
-  
-print (end="") 
-print (s) 
-  
 print (end="") 
 print (reverse(s)) 
+
