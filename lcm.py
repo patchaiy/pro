@@ -1,16 +1,16 @@
-def lcm(x, y):
-   if x > y:
-       greater = x
+def lcm(a, b):
+   if a > b:
+       greater = a
    else:
-       greater = y
+       greater = b
 
    while(True):
-       if((greater % x == 0) and (greater % y == 0)):
+       if((greater % a == 0) and (greater % b == 0)):
            lcm = greater
            break
        greater += 1
 
    return lcm
 
-num1,num2 = [int(num1) for num1 in input().split()]
-print( lcm(num1, num2))
+a,b = [int(a) for a in input().split()]
+print( lcm(a, b))
