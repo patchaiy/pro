@@ -1,10 +1,7 @@
-strii='dhoni'
-in3=input()
-list3=list(in3)
-list3.sort()
-lst3=list(stri3)
-lst3.sort()
-if(lst3==list3):
-  print("yes")
+sorted_base_listi=['d','h','i','n','o']
+input_list=list(input())
+input_list.sort()
+if sorted_base_listi == input_list:
+    print("yes")
 else:
-  print("no")
+    print("no") 
